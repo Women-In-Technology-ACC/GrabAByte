@@ -13,7 +13,7 @@
 | DATE | ALGORITHM | FILE NAME |
 |------|-----------|-----------|
 | ~~Jan 29, 25~~ | ~~Linear Search~~ | ~~01_linear_search.py~~ |
-| Feb  5, 25 | Binary Search | 02_binary_search.py |
+| ~~Feb  5, 25~~ | ~~Binary Search~~ | ~~02_binary_search.py~~ |
 | Feb 12, 25 | Bubble Sort | 03_bubble_sort.py |
 | Feb 19, 25 | Selection Sort | 04_selection_sort.py |
 | Feb 26, 25 | Insertion Sort | 05_insertion_sort.py |

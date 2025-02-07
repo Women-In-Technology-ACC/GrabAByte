@@ -53,7 +53,7 @@ else:
 # #initialize the iterations count
 # iterations = 0
 
-# # get the lenght of the array
+# # get the length of the array
 # # n = len(array)
 # n = 1000
 

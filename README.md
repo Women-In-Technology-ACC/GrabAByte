@@ -16,7 +16,7 @@
 | ~~Feb  5, 25~~ | ~~Binary Search~~ | ~~02_binary_search.py~~ |
 | ~~Feb 12, 25~~ | ~~Bubble Sort~~ | ~~03_bubble_sort.py~~ |
 | ~~Feb 19, 25~~ | ~~Selection Sort~~ | ~~04_selection_sort.py~~ |
-| Feb 26, 25 | Insertion Sort | 05_insertion_sort.py |
+| ~~Feb 26, 25~~ | ~~Insertion Sort~~ | ~~05_insertion_sort.py~~ |
 | Mar  5, 25 | Merge Sort | 06_merge_sort.py |
 | Mar 12, 25 | Quick Sort | 07_quick_sort.py |
 | Mar 26, 25 | Breadth-First Search | 08_breadth-first_search.py |

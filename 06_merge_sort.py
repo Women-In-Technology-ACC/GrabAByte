@@ -54,15 +54,15 @@ print("Sorted array is:", array)
 #################################################################
 # O NOTATION - Log-Linear Time O(n log n)
 
-# Log-Linear Time o notaiton represents an algorithm that splits 
+# Log-Linear Time o notation represents an algorithm that splits 
 # the input and processes each element
 
 
 # # UNCOMMENT HERE DOWN
-# # Intialize the iterations sum variable
+# # Initialize the iterations sum variable
 # iterations = 0
 
-# # Get the lenght of the array
+# # Get the length of the array
 # n = len(array)
 # log_n = 0
 

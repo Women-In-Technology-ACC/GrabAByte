@@ -24,22 +24,22 @@ print("Sorted array is:", array)
 #################################################################
 # O NOTATION - Quadratic Time O(n^2)
 
-# Quadratic time O notation represents and algorithm where every
+# Quadratic time O notation represents an algorithm where every
 # element interacts with every other element in a nested loop
 
 
 # # UNCOMMENT HERE DOWN
-# # Intialize the iterations sum variable
+# # Initialize the iterations sum variable
 # iterations = 0
 
 # # Get the length of the array
-# n = len(array)
+# # n = len(array)
+# n = 1000
 
 # # Loop through each element n times
 # for i in range(n):
-#     for j in range(n):
+#     for j in range(n-i-1):
 #         iterations += 1
-#         print("Iteration: ", iterations)
 
 # # PRINT RESULTS
 # print("The total iterations are: ", iterations)

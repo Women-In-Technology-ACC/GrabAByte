@@ -2,7 +2,7 @@
 
  These files are the example code for the Grab a Byte workshops!
 
- The Grab A Byte Workshop is an ongoing learning series for Austin Community College's Women Inforamtion Technology (WIT) group. 
+ The Grab A Byte Workshop is an ongoing learning series for Austin Community College's Women Information Technology (WIT) group. 
  I put this together after a survey to a members stated that they wanted to learn more about Algorithms. 
 
 
@@ -18,7 +18,7 @@
 | ~~Feb 19, 25~~ | ~~Selection Sort~~ | ~~04_selection_sort.py~~ |
 | ~~Feb 26, 25~~ | ~~Insertion Sort~~ | ~~05_insertion_sort.py~~ |
 | ~~Mar  5, 25~~ | ~~Merge Sort~~ | ~~06_merge_sort.py~~ |
-| Mar 12, 25 | Quick Sort | 07_quick_sort.py |
+| ~~Mar 12, 25~~ | ~~Quick Sort~~ | ~~07_quick_sort.py~~ |
 | Mar 26, 25 | Breadth-First Search | 08_breadth-first_search.py |
 | Apr  2, 25 | Depth-First Search | 09_depth-first_search.py |
 | Apr  9, 25 | Hashing | 10_hashing.py |

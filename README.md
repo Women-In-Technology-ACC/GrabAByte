@@ -19,8 +19,8 @@
 | ~~Feb 26, 25~~ | ~~Insertion Sort~~ | ~~05_insertion_sort.py~~ |
 | ~~Mar  5, 25~~ | ~~Merge Sort~~ | ~~06_merge_sort.py~~ |
 | ~~Mar 12, 25~~ | ~~Quick Sort~~ | ~~07_quick_sort.py~~ |
-| Mar 26, 25 | Breadth-First Search | 08_breadth-first_search.py |
-| Apr  2, 25 | Depth-First Search | 09_depth-first_search.py |
+| ~~Mar 26, 25~~ | ~~Breadth-First Search~~ | ~~08_breadth-first_search.py~~ |
+| ~~Apr  2, 25~~ | ~~Depth-First Search~~ | ~~09_depth-first_search.py~~ |
 | Apr  9, 25 | Hashing | 10_hashing.py |
 | Apr 16, 25 | Dijkstra's Algorithm | 11_dijkstras_algorithm.py |
 | Apr 23, 25 | Dynamic Programming | 12_dynamic_programming.py |

@@ -1,4 +1,4 @@
-
+![Logo](GrabAByteLogo.png)
 
 
  These files are the example code for the Grab a Byte workshops!

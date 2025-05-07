@@ -1,5 +1,6 @@
-![Logo](GrabAByteLogo.png)
-
+<p align="center">
+    <img src="GrabAByteLogo.png" width="40%">
+</p>
 
  These files are the example code for the Grab a Byte workshops!
 

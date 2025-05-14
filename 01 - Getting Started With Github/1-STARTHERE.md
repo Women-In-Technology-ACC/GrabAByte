@@ -37,3 +37,47 @@ Use this link: [title](https://github.com/signup)
 
 **Repository or Repo** - is an individual project. Repos contain all of your code, files, and each file's revision history. 
 
+--- 
+
+## Installing Git on Windows
+*coming soon*
+
+---
+
+## Installing Git on Mac
+*coming soon*
+
+---
+
+## Terminal/Command Line
+*coming soon*
+
+---
+
+## Set Up Git Config
+*coming soon*
+
+---
+
+## The Grab a Byte Repo
+*coming soon*
+
+---
+
+## Forking
+*coming soon*
+
+---
+
+## Cloning
+*coming soon*
+
+---
+
+## OPTIONAL: Homework
+*coming soon*
+
+---
+
+## Next Up
+*coming soon*

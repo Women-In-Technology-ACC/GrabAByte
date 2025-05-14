@@ -7,9 +7,9 @@ Welcome to the Grab a Byte Lunchtime Learning Series! This semester we are learn
 ## Table of Contents
 - Sign-up for GitHub
 - Git v. GitHub
+- Terminal/Command Line
 - Installing Git on Windows
 - Installing Git on Mac
-- Terminal/Command Line
 - Set Up Git Config
 - The Grab a Byte Repo
 - Forking
@@ -37,6 +37,11 @@ Use this link: [title](https://github.com/signup)
 
 **Repository or Repo** - is an individual project. Repos contain all of your code, files, and each file's revision history. 
 
+---
+
+## Terminal/Command Line
+*coming soon*
+
 --- 
 
 ## Installing Git on Windows
@@ -45,11 +50,6 @@ Use this link: [title](https://github.com/signup)
 ---
 
 ## Installing Git on Mac
-*coming soon*
-
----
-
-## Terminal/Command Line
 *coming soon*
 
 ---

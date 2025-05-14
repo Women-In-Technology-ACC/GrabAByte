@@ -13,6 +13,7 @@ Welcome to the Grab a Byte Lunchtime Learning Series! This semester we are learn
 - Installing Git on Windows
 - Installing Git on Mac
 - Set Up Git Config
+- Authenticate GitHub
 - The Grab a Byte Repo
 - Forking
 - Cloning
@@ -23,11 +24,14 @@ Welcome to the Grab a Byte Lunchtime Learning Series! This semester we are learn
 
 ## Sign-up for GitHub
 
-Use this link: [title](https://github.com/signup)
+Use this link: [GitHub Sign-Up](https://github.com/signup)
 
 **TIPS**
-- Use your school email address (students can get a free PRO account! <- more details in the homework below>)
+- Use your school email address (students can get a free PRO account! <- more details in the homework below)
 - Use a professional username. Future employers might be checking our your profile!
+
+**NOTE** 
+You are going to need your screen name and email address a little later so make sure you write down/remember it!
 
 ---
 
@@ -62,7 +66,7 @@ Click the "Start" Button, type "PowerShell". Select "Windows PowerShell" from th
 ## Installing Git on Windows
 1. Go to [Git Homepage](https://git-scm.com/downloads/win) and download Git.
 2. After it's downloaded, open the file
-3. Install, leaving all the default options (If you want, when it gets to the second about "choosing the default editor used by Git" you can switch it from Vim to something like VS Code)
+3. Install, leaving all the default options as is (If you want, when it gets to the section about "choosing the default editor used by Git" you can switch it from Vim to something like VS Code)
 4. Launch Git Bash
 5. Run the command "```git --version```"
 6. It should return something like "```git version x.x.x```"
@@ -75,7 +79,8 @@ You can always get back to Git Bash after you close out of it by clicking the "S
 ---
 
 ## Installing Git on Mac
-Most Macs these days come with Git pre-installed. You'll want to make sure you have an updated version.
+
+Most Macs these days come with Git pre-installed. 
 
 1. Open the terminal app
 2. Type the command: "```git --version```"
@@ -96,6 +101,11 @@ To use Git effectively, you need to configure it properly using the git config c
 1. Set global username with the command ```git config --global user.name 'username'``` <- make sure this is your github username that you registered with earlier
 2. Set global email with the command ```git config --global user.email 'user email'``` <- make sure this is your github email address that you registered with earlier
 3. Set the default branch to 'main' instead of 'master' with the command ```git config --global init.defaultBranch main``` <- main is the new norm, master is outdated and inappropriate.
+
+---
+
+## Authenticate Github
+*coming soon*
 
 ---
 

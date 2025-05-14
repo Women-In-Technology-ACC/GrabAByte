@@ -17,5 +17,13 @@ Welcome to the Grab a Byte Lunchtime Learning Series! This semester we are learn
 - OPTIONAL: Homework
 - Next Up
 
+---
 
+## Sign-up for GitHub
+
+Use this link: [title](https://github.com/signup)
+
+**TIPS**
+- Use your school email address (students can get a free PRO account! <- more details in the homework below>)
+- Use a professional username. Future employers might be checking our your profile!
 

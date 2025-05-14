@@ -5,8 +5,8 @@ Welcome to the Grab a Byte Lunchtime Learning Series! This semester we are learn
 ---
 
 ## Table of Contents
-- Sign-up for Github
-- Git v. Github
+- Sign-up for GitHub
+- Git v. GitHub
 - Installing Git on Windows
 - Installing Git on Mac
 - Terminal/Command Line
@@ -26,4 +26,14 @@ Use this link: [title](https://github.com/signup)
 **TIPS**
 - Use your school email address (students can get a free PRO account! <- more details in the homework below>)
 - Use a professional username. Future employers might be checking our your profile!
+
+---
+
+## Git v. GitHub
+
+**Git** - is a free, open-source version control system that tracks changes in computer files.
+
+**GitHub** - is a hosting service that provides cloud-based platform to store Git Repositories.
+
+**Repository or Repo** - is an individual project. Repos contain all of your code, files, and each file's revision history. 
 

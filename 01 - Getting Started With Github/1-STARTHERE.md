@@ -64,7 +64,7 @@ Click the "Start" Button, type "PowerShell". Select "Windows PowerShell" from th
 2. After it's downloaded, open the file
 3. Install, leaving all the default options (If you want, when it gets to the second about "choosing the default editor used by Git" you can switch it from Vim to something like VS Code)
 4. Launch Git Bash
-5. Run the command "```git -- version```"
+5. Run the command "```git --version```"
 6. It should return something like "```git version x.x.x```"
 
 
@@ -75,7 +75,17 @@ You can always get back to Git Bash after you close out of it by clicking the "S
 ---
 
 ## Installing Git on Mac
-*coming soon*
+Most Macs these days come with Git pre-installed. You'll want to make sure you have an updated version.
+
+1. Open the terminal app
+2. Type the command: "```git --version```"
+3. You should see something like "```git version x.xx.x```" (If your version is 2.39 or over, then you are good to go, if not, please continue with the rest of the steps)
+4. Go to the [Install Homebrew](https://brew.sh/) website and copy and paste the install command from the website to your terminal (the command looks like this: "```/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"```) <- you may need to enter your computer password or computer login pin.
+5. Press return when prompted to go through the install process, it should only take a few seconds. It might also ask you to install xcode command line if it isn't already installed, go ahead and follow those installation instructions as well.
+6. If you see a "Next steps:" section at the bottom that says to run commands, copy and paste those commands and run them. 
+7. You should then be able to run the command "```brew --version```" and see something like "```Homebrew x.x.x```"
+8. Next type the command "```brew install git```", it should take about a minute to install.
+9. You can then check your git version again using the "```git --version```" command. 
 
 ---
 

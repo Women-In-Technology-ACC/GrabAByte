@@ -7,7 +7,9 @@ Welcome to the Grab a Byte Lunchtime Learning Series! This semester we are learn
 ## Table of Contents
 - Sign-up for GitHub
 - Git v. GitHub
-- Terminal/Command Line
+- Terminal/Powershell
+  - Terminal (Mac)
+  - Powershell (Windows) 
 - Installing Git on Windows
 - Installing Git on Mac
 - Set Up Git Config
@@ -39,8 +41,22 @@ Use this link: [title](https://github.com/signup)
 
 ---
 
-## Terminal/Command Line
-*coming soon*
+## Terminal/Powershell
+The **Terminal**(Mac) or **Powershell**(Windows) is a text-based interface that allows users to interact with their computers operating system by typing commands. 
+
+You may already recognize them! 
+
+![screenshot of the terminal for mac](terminal.png)
+![screenshot of the powershell for windows](powershell.png)
+
+### Terminal (Mac)
+Click on "Launch Pad" and in the search bar at the top of the screen type in "Terminal". Click the Terminal app:
+
+![terminal icon](terminalicon.jpg)
+
+### Powershell (Windows)
+Click the "Start" Button, type "PowerShell". Select "Windows PowerShell" from the search results. Click Open.
+
 
 --- 
 

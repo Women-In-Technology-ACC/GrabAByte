@@ -57,11 +57,20 @@ Click on "Launch Pad" and in the search bar at the top of the screen type in "Te
 ### Powershell (Windows)
 Click the "Start" Button, type "PowerShell". Select "Windows PowerShell" from the search results. Click Open.
 
-
 --- 
 
 ## Installing Git on Windows
-*coming soon*
+1. Go to [Git Homepage](https://git-scm.com/downloads/win) and download Git.
+2. After it's downloaded, open the file
+3. Install, leaving all the default options (If you want, when it gets to the second about "choosing the default editor used by Git" you can switch it from Vim to something like VS Code)
+4. Launch Git Bash
+5. Run the command "```git -- version```"
+6. It should return something like "```git version x.x.x```"
+
+
+You can always get back to Git Bash after you close out of it by clicking the "Start" button, typing "Git Bash" and clicking on the Git Bash application. 
+
+**NOTE**: You can use Git Bash instead of Powershell! 
 
 ---
 

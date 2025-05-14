@@ -90,7 +90,12 @@ Most Macs these days come with Git pre-installed. You'll want to make sure you h
 ---
 
 ## Set Up Git Config
-*coming soon*
+
+To use Git effectively, you need to configure it properly using the git config command. This setup ensures that Git recognizes your identity, settings, and workflow preferences.
+
+1. Set global username with the command ```git config --global user.name 'username'``` <- make sure this is your github username that you registered with earlier
+2. Set global email with the command ```git config --global user.email 'user email'``` <- make sure this is your github email address that you registered with earlier
+3. Set the default branch to 'main' instead of 'master' with the command ```git config --global init.defaultBranch main``` <- main is the new norm, master is outdated and inappropriate.
 
 ---
 

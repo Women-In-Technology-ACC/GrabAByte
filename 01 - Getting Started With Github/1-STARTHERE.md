@@ -165,12 +165,27 @@ From here you can change the Repository name and the Description. Once you are r
 ---
 
 ## Cloning
-*coming soon*
+
+When you **Clone** a repository, you are actually copying the repo to your local machine. Any changes you make to the copy on your local machine you can push to the copy on GitHub.com.
+
+1. From your repo's page on Github.com, click on the green "Code" button
+2. Make sure you are in the "Local" tab and click the "SSH" button. 
+3. You should see something like this:
+
+![Github popup with code button](sshcodebox.png)
+
+4. You want to copy the line that appears. The one that starts with ```git@github.com:``` then it should show your username, the name of the repo.
+5. Then open your command line and type ```git clone``` and paste the line you just copied.
+6. If this is your first time doing this, you might see a prompt that asks you "Are you sure you want to continue connecting" say yes. This should only happen this first time.
+
+
+
+**CONGRATULATIONS! You did it! You have set up your machine and forked and cloned your first repo!**
 
 ---
 
 ## OPTIONAL: Homework
-*coming soon*
+*coming soon*=
 
 ---
 

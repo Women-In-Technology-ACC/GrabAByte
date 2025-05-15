@@ -105,7 +105,35 @@ To use Git effectively, you need to configure it properly using the git config c
 ---
 
 ## Authenticate Github
-*coming soon*
+
+You can access repositories on Github from the command line (Terminal/Powershell/Bash) in two ways. HTTPS(Hypertext Transfer Protocol Secure) and SSH(Secure Shell). We will be using SSH, because it is more secure and efficient. 
+
+1. Make sure you have SSH installed on your computer. In your Terminal/Powershell/Bash, type the command "```ssh -V```" <- notice the capital V!
+2. **(WINDOWS)** If you don't see "```OpenSSH_x.xxx, LibreSSL x.x.x``` or something similar you will need to install it by going to Settings > System > Optional Features. Select "Add a feature" and search fro OpenSSH Client, then select install. **(MAC)** You should see it. It's already installed on all Macs. 
+3. Next we'll generate a key pair by using the command: "```ssh-keygen -t ed25519 -C user.name```" <- use the same user.name as your GitHub.
+4. Your command line should say it's generating a key pair. Then it will ask you to enter the file in which to save the key, and in then it will show the default path and file name in parenthesis. You can copy and paste this or type in what it says but change the "```id_ed25519```" to something more memorable like "```keygen_github```" or something like that. Whatever file name you use, write it down, because you will need it in a few steps
+5. It will ask you to enter a passphrase. If you share this computer, you should consider a passphrase you'll remember. Or you can just press enter, to skip through the passphrase and not add one.
+6. The key will generate and look like an ASCII art image. Like this:
+
+![Key Gen Art](keyart.png)
+
+7. Next you will need to enter this command: "```eval "$(ssh-agent -s)"```"
+8. Next you need to type in the command: "```pbcopy < ~/.ssh/```enter the name of the file you used earlier (example "keygen_github")```.pub```
+9.  Now you'll need to log in to GitHub, click on your profile icon in the top right corner, from the drop down, go to "Settings". In the second section of the left menu (called "Access") in the middle is "SSH and GPG keys" Click that menu item.
+10. Click the green button that says "New SSH Key"
+11. You can name it whatever you like in the Title box. (ex. Work Laptop, Personal Laptop, etc.)
+12. Key type is "Authentication Key"
+13. In the Key box, you can paste by right clicking and choosing "Paste", or pressing Ctrl V on Windows or Command V on Mac.  <- if you did anything between step 9 and this step that caused you to copy something else, go to your terminal, redo step 8 and then jump back to this step and do it again to paste the key, which should look like a long jumble of random letters and numbers
+14. Click "Add SSH Key" green button
+15. It will ask you to confirm by entering your GitHub password
+16. Verify the key by going back to your command line and typing the command "```ssh -T git@github.com```"
+17. You should see a message that says: "```Hi user.name! You've successfully authenticated, but GitHub does not provide shell access.```" <- This is good! 
+
+
+Now, anytime you want to make a change to a repo on GitHub, instead of logging in each time, it should verity the key pair on your computer without needing to prompt you. 
+
+**NOTE** If you added a passphrase in step 5, you'll only be asked to enter it once per session. 
+
 
 ---
 

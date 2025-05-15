@@ -189,14 +189,16 @@ When you **Clone** a repository, you are actually copying the repo to your local
 ## OPTIONAL: Homework
 
 - Check out [Github Education](https://github.com/education/students) and see the benefits for students! Get your own Student Account! 
-- Check out some other people's profiles! Like Mine, ([Rikki Tomiko Ehrhart](https://github.com/rikkitomikoehrhart) or [Brittany Sifford](https://github.com/Thebittles)). Follow some people to start building your network!
+- Check out some other people's profiles! Like (Mine)[Rikki Tomiko Ehrhart](https://github.com/rikkitomikoehrhart) or [Brittany Sifford](https://github.com/Thebittles). Follow some people to start building your network!
 - We will be using a lot of markdown in the future, you can familiarize yourself with it [here](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax) or by searching for a markdown cheatsheet on google. Markdown is sooooooo easy!
 
 ---
 
 ## Next Up
 
-Next week we will be covering GitHub Basics!
+Next week we will be covering GitHub Basics! If you only commit to two workshops, let it be this one (Getting Started with GitHub) and next week's (GitHub Basics).
+
+
 
 If you have any questions please let me know at [rikki.ehrhart@g.austincc.edu](mailto:rikki.ehrhart@g.austincc.edu). 
 

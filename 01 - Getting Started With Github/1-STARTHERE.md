@@ -151,7 +151,16 @@ So, lets make you your own copy of this workbook!
 ---
 
 ## Forking
-*coming soon*
+
+**Forking** is a term that means making a copy of a repository, stored either publicly or privately, under your personal account on a remote hosting service, like GitHub.
+
+You are going to fork this repo so that you have a copy you can use as your own personal workbook!
+
+Go to the [Grab a Byte Repo](https://github.com/Women-In-Technology-ACC/GrabAByte) and in the top bar, click on the "Fork" button shown here circled:
+
+![fork button location](forkbutton.png)
+
+From here you can change the Repository name and the Description. Once you are ready, click the "Create Fork" Button.
 
 ---
 

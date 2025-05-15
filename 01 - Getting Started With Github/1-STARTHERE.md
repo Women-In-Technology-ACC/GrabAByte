@@ -134,11 +134,19 @@ Now, anytime you want to make a change to a repo on GitHub, instead of logging i
 
 **NOTE** If you added a passphrase in step 5, you'll only be asked to enter it once per session. 
 
-
 ---
 
 ## The Grab a Byte Repo
-*coming soon*
+
+This Repo! 
+
+Just a few notes before we continue. This Repo should be seen as a workbook! There are going to be many times over the next 10 weeks of lessons that asks you to edit, make changes, add things, etc. 
+
+This is your place to test out and try new things and get comfortable with GitHub!
+
+Last semester's presentations and code are in the folder 00 - Past Workshops/Algorithms - Spring 2025
+
+So, lets make you your own copy of this workbook!
 
 ---
 

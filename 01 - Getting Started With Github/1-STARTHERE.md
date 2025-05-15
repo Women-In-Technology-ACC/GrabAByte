@@ -195,4 +195,9 @@ When you **Clone** a repository, you are actually copying the repo to your local
 ---
 
 ## Next Up
-*coming soon*
+
+Next week we will be covering GitHub Basics!
+
+If you have any questions please let me know at [rikki.ehrhart@g.austincc.edu](mailto:rikki.ehrhart@g.austincc.edu). 
+
+If you'd like to run a Grab a Byte Session this semester, please let me know and we can work together to get you the presentation experience! (and you can put it on your resume!)

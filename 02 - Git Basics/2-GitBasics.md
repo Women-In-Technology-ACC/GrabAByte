@@ -230,13 +230,54 @@ Lets check ```git status``` again. It's changed again, right?
 
 Now use the ```git commit -m "Message"``` command and write an appropriate message using some of the tips we used earlier.
 
-For example: ```git commit -m "Add my answers to the survey questions in the lesson 2 file```
+For example: ```git commit -m "Add my answers to the survey questions in the lesson 2 file"```
+
+And finally. Do the ```git push``` command.
+
+### **<ins>Section 3: Rapid Fire!</ins>**
+
+Fill out the questions in this section:
+
+7. **<ins>The tech world needs:</ins>**
+8. **<ins>I am looking forward to:</ins>**
+9. **<ins>My dream project is:</ins>**
+
+And do the full:
+```
+status
+add
+commit
+push
+```
+on your own! I believe in you! 
 
 
 ---
 
 ## OPTIONAL: Homework
-*coming soon*
+
+- Create your own profile README using [this tutorial](https://docs.github.com/en/account-and-profile/setting-up-and-managing-your-github-profile/customizing-your-profile/managing-your-profile-readme). Both [me](https://github.com/rikkitomikoehrhart) and [Brittany](https://github.com/Thebittles) have examples of custom profile READMEs. 
+- Log in to your GitHub account, click on your icon in the top right corner and click on the "Your repositories" menu item. Click on your repo for this workbook and look at the main section to see your commits:
+
+![screenshot of github commits](githubcommits.png)
+
+- For more practice fill out these questions below and practice in between each question until you feel comfortable:
+
+1. **<ins></ins>**
+2. **<ins></ins>**
+3. **<ins></ins>**
+4. **<ins></ins>**
+5. **<ins></ins>**
+6. **<ins></ins>**
+7. **<ins></ins>**
+8. **<ins></ins>**
+9. **<ins></ins>**
+10. **<ins></ins>**
+
+
+
+
+
 
 ---
 

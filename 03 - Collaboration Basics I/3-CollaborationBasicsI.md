@@ -22,7 +22,11 @@ This week we are going to go over some Collaboration Basics
 ---
 
 ## What Collaboration?
-*coming soon*
+Just like collaboration on a group project (is supposed to be) in the real world, you can collaborate with a group on a project in GitHub. 
+
+This means that multiple people can work on teh same codebase in the same repo at once! 
+
+Members working on the same repo can avoid overwriting each others work by using 
 
 ---
 

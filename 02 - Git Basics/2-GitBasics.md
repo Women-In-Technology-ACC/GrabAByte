@@ -15,6 +15,7 @@ Last week we signed up for GitHub and set it up on our machines! This week we ar
   - Add
   - Commit
   - Push
+  - How They Work Together
 - Messages Matter
 - Lets Do It Together!
 - OPTIONAL: Homework
@@ -86,7 +87,7 @@ Throughout this course, we will use ```git add filename.extension``` and ```git 
 
 
 ### Commit
-The ```git commit``` command creates a **commit**, which is like a snapshot of your repo at specific times.
+The ```git commit``` command creates a **commit**, which is like a snapshot of your repo at specific times. It uses the files you added when you used the ```git add``` command. When you commit, it removes those files from the staging area, and now they are in the commit. 
 
 You should make commits often, based around logical units of change. Over time, commits should tell a story of the history of your repo and how it came to be the way that it currently is. 
 
@@ -107,12 +108,50 @@ Tips for committing:
 - Test your code before you commit
 - Write good messages (which we will talk about more in depth in the "Messages Matter" section below)
 
+If you just type in ```git commit``` it will prompt you to write a message. Most people will use the ```git commit -m "message"``` command format to commit and leave their message at the same time.
 
+For example:
+![screenshot of the git commit](gitcommit.png)
 
+Here I did the command:
+```git commit -m "Add section on the status, add, and commit commands to the lesson 2 markdown file"```
 
+So now I have a "snapshot" of my project at this moment with a message about what I added/changed/modified/fixed, etc... we'll cover more of that later.
 
 
 ### Push
+The ```git push``` command is used to upload the local commits to a remote repo. Like sending the changes to your project that you made on your local machine and sending it to your repo on GitHub.
+
+![screenshot of the git push command](gitpush.png)
+
+Here you can see I used the command ```git push``` (on a Mac, I did have a popup asking me to enter my computer pin to allow github to use my keychain, I entered the pin I used to log in to my laptop and clicked 'Always Allow' because I am the only one who uses my laptop, so it's fine).
+
+There are a lot of other add ons we can use with this command, and you can find them easily only (at places like [here](https://git-scm.com/docs/git-push)) but we will just be using the simple ```git push``` in this workshop.
+
+
+### How They Work Together
+Ok, so we've learned:
+- ```status``` is how we check what files have be modified but not added to a commit
+- ```add``` is how we add those files to a staging area
+- ```commit``` is us taking those files from the staging area and adding a message to them and taking a "snapshot" or like a save point 
+- ```push``` is us sending the commit to the remote repo (like sending it from our local machine to the GitHub repo)
+
+
+You would use them in that order in your workflow.
+
+**Here's an example**: you are building a website for your business and on it you have an newsletter sign up form where users can enter their name and email address and click a button. When the button is clicked it sends you an email with their name and email address so that you can add them to your email list.
+
+Lets say you had a bug where it would send you the email but it would only include their name and not their email. Before you start fixing the bug you type in the command: ```git status``` *(1)* to make sure you don't have any modifications you should have already committed and pushed. 
+
+Then you start fixing the bug and once you get a fix and test it, you are ready. Repeat the same command ```git status``` *(2)* and make sure the files you changed are appearing. Lets say the file name is "email.php". Then you would add it to the staging area by using the command ```git add email.php``` *(3)* and then you would use the command and message: ```git commit -m "Fixed bug in email.php where email wasn't being sent when user submitted form by changing what values were included"``` *(4)* and finally, you would push it to the repo with the command ```git push``` *(5)*.
+
+So, to go over it quickly:
+
+1. ```git status``` -- to check if anything already done needs to be added, committed, and pushed
+2. ```git status``` -- again after the bug is fixed and tested
+3. ```git add email.php``` -- add the changes to email.php to the staging area
+4. ```git commit -m "Fixed bug in email.php where email wasn't being sent when user submitted form by changing what values were included"``` -- created a snapshot of the changes from files in the staging area. 
+5. ```git push``` -- send those snapshots to the remote repo hosted on GitHub 
 
 
 ---

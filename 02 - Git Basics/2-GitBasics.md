@@ -184,12 +184,54 @@ In this example we have already added the section, but when we write this commit
 In this example, we've already fixed the bug but we use the present tense "Fix" instead of "Fixed"
 
 
-I like to think of it as the that commit is an action and the message is explaining the action, it does it in present tense because as soon as that commit gets pushed it is the action. 
+I like to think of it as the that commit is an action and the message is explaining the action, it does it in present tense because as soon as that commit gets pushed it is doing the action.
+
+When you make your own messages, think of the phrase "If applied, this commit will..." and put it in front of your message. If it makes sense then you did it right!
+
+Examples:
+- "If applied this commit will..." ```Add section on the status, add, and commit commands to the lesson 2 markdown file```
+- "If applied this commit will..." ```Fix bug in email.php where email wasn't being sent when user submitted form by changing what values were included```
+
 
 ---
 
 ## Lets Do it Together!
-*coming soon*
+Lets do it together!!! If you haven't already completed Lesson 01 - Getting Started with GitHub, then you need to do that so you have your own repo to make changes to.
+
+If you've already done that, then please continue! 
+
+### <ins>Section 1: About You!</ins>
+>*In your Terminal, Powershell, Bash, etc. use ```cd``` and ```ls``` to help you navigate to the folder where you have this repo on your machine. Once there, use the ```git status``` command and see what appears*
+
+Open up the **02 - Git Basics/2-GitBasics.md** file on your machine and fill out the questions in this section.
+
+1. **<ins>Name:</ins>** 
+2. **<ins>College Major/Job Title/Dream Job:</ins>**
+3. **<ins>What I hope to learn from this series:</ins>**
+
+
+After you have filled out these three questions, go back to your command line and run the ```git status``` command again. Look at the changes from the first time you ran the command to this second time.
+
+
+### <ins>Section 2: Favorites!</ins>
+Fill out the questions in this section:
+
+4. **<ins>Favorite coding language (or one you really want to learn):</ins>**
+5. **<ins>Favorite snack:</ins>**
+6. **<ins>Favorite fictional character:</ins>**
+  
+After you've filled out these questions, I want you to run the ```git status``` command a third time. Did anything change between the 2nd time you ran the command to this third time? Probably not. It should have changed between the first and the second but not this time! Why is that?
+
+Because the ```git status``` is only showing us if a file has been modified, and we had already modified the file. 
+
+Next I'd like you to use the ```git add``` command. You can use ```git add .``` or the ```git add filename.extension```, but keep in mind, you will have to include the folder or us ```cd``` to travel into that folder (if you did this and need to move back out to the main folder, you can travel one folder up by using the ```cd ..``` command).
+
+Lets check ```git status``` again. It's changed again, right? 
+
+Now use the ```git commit -m "Message"``` command and write an appropriate message using some of the tips we used earlier.
+
+For example: ```git commit -m "Add my answers to the survey questions in the lesson 2 file```
+
 
 ---
 

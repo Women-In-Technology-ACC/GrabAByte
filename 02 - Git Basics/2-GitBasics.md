@@ -53,7 +53,13 @@ We've included our logo image, a welcome paragraph explaining what Grab a Byte i
 ---
 
 ## Common Git Commands
-In today's lesson we are going to go over 4 common git commands: status, add, commit, and push.
+In today's lesson we are going to go over 4 common git commands: 
+```
+status 
+add
+commit
+push
+```
 
 Lets discuss each of them. 
 
@@ -130,7 +136,7 @@ The ```git push``` command is used to upload the local commits to a remote repo.
 
 Here you can see I used the command ```git push``` (on a Mac, I did have a popup asking me to enter my computer pin to allow github to use my keychain, I entered the pin I used to log in to my laptop and clicked 'Always Allow' because I am the only one who uses my laptop, so it's fine).
 
-There are a lot of other add ons we can use with this command, and you can find them easily only (at places like [here](https://git-scm.com/docs/git-push)) but we will just be using the simple ```git push``` in this workshop.
+There are a lot of other add ons we can use with this command, and you can find them easily online (at places like [here](https://git-scm.com/docs/git-push)) but we will just be using the simple ```git push``` in this workshop.
 
 
 ### How They Work Together
@@ -145,9 +151,9 @@ You would use them in that order in your workflow.
 
 **Here's an example**: you are building a website for your business and on it you have an newsletter sign up form where users can enter their name and email address and click a button. When the button is clicked it sends you an email with their name and email address so that you can add them to your email list.
 
-Lets say you had a bug where it would send you the email but it would only include their name and not their email. Before you start fixing the bug you type in the command: ```git status``` *(1)* to make sure you don't have any modifications you should have already committed and pushed. 
+Lets say you had a bug where it would send you the email but it would only include their name and not their email address. Before you start fixing the bug you type in the command: ```git status``` *(1)* to make sure you don't have any modifications you should have already committed and pushed. 
 
-Then you start fixing the bug and once you get a fix and test it, you are ready. Repeat the same command ```git status``` *(2)* and make sure the files you changed are appearing. Lets say the file name is "email.php". Then you would add it to the staging area by using the command ```git add email.php``` *(3)* and then you would use the command and message: ```git commit -m "Fix bug in email.php where email wasn't being sent when user submitted form by changing what values were included"``` *(4)* and finally, you would push it to the repo with the command ```git push``` *(5)*.
+Then you start fixing the bug and once you get a fix and test it, you are ready. Repeat the same command ```git status``` *(2)* and make sure the files you changed are appearing (if not, you may need to save them on your computer first). Lets say the file you fixed is named "email.php". Then you would add it to the staging area by using the command ```git add email.php``` *(3)* and then you would use the command and message: ```git commit -m "Fix bug in email.php where email wasn't being sent when user submitted form by changing what values were included"``` *(4)* and finally, you would push it to the repo with the command ```git push``` *(5)*.
 
 So, to go over it quickly:
 
@@ -174,7 +180,7 @@ Here are the tips:
 
 
 
-**NOTE**: The company you work for might have their own way they like commit messages to be done, and you should always prioritize their way. But there is a standard practice in on GitHub and it is taking in the "imperative mood" or present tense. For example, in the earlier commit messages we used as an example:
+**NOTE**: The company you work for might have their own way they like commit messages to be done, and you should always prioritize their way. But there is a standard practice in on GitHub and it is writing it in the "imperative mood" or present tense. For example, in the earlier commit messages we used as an example:
 
 ```git commit -m "Add section on the status, add, and commit commands to the lesson 2 markdown file"```
 In this example we have already added the section, but when we write this commit, even though we have already added it we use the present tense "Add" instead of the past tense "Added"
@@ -189,8 +195,8 @@ I like to think of it as the that commit is an action and the message is explain
 When you make your own messages, think of the phrase "If applied, this commit will..." and put it in front of your message. If it makes sense then you did it right!
 
 Examples:
-- "If applied this commit will..." ```Add section on the status, add, and commit commands to the lesson 2 markdown file```
-- "If applied this commit will..." ```Fix bug in email.php where email wasn't being sent when user submitted form by changing what values were included```
+- "If applied, this commit will..." ```Add section on the status, add, and commit commands to the lesson 2 markdown file```
+- "If applied, this commit will..." ```Fix bug in email.php where email wasn't being sent when user submitted form by changing what values were included```
 
 
 ---
@@ -210,7 +216,7 @@ Open up the **02 - Git Basics/2-GitBasics.md** file on your machine and fill out
 3. **<ins>What I hope to learn from this series:</ins>**
 
 
-After you have filled out these three questions, go back to your command line and run the ```git status``` command again. Look at the changes from the first time you ran the command to this second time.
+After you have filled out these three questions, go back to your command line and run the ```git status``` command again. Look at the changes from the first time you ran the command to this second time. What's different?
 
 
 ### <ins>Section 2: Favorites!</ins>
@@ -224,7 +230,7 @@ After you've filled out these questions, I want you to run the ```git status``` 
 
 Because the ```git status``` is only showing us if a file has been modified, and we had already modified the file. 
 
-Next I'd like you to use the ```git add``` command. You can use ```git add .``` or the ```git add filename.extension```, but keep in mind, you will have to include the folder or us ```cd``` to travel into that folder (if you did this and need to move back out to the main folder, you can travel one folder up by using the ```cd ..``` command).
+Next I'd like you to use the ```git add``` command. You can use ```git add .``` or the ```git add filename.extension```, but keep in mind, you will have to include the folder or use ```cd``` to travel into that folder (if you did this and need to move back out to the main folder, you can travel one folder up by using the ```cd ..``` command).
 
 Lets check ```git status``` again. It's changed again, right? 
 

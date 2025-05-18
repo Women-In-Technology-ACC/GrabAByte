@@ -119,6 +119,10 @@ Here I did the command:
 So now I have a "snapshot" of my project at this moment with a message about what I added/changed/modified/fixed, etc... we'll cover more of that later.
 
 
+**NOTE**: Git messages can have a subject and a body. It is not necessary to include both. With simple commits, it is standard to do the single message like above. If you need to do a subject and a body, then just do the simple ```git commit``` and it will prompt you for the full message or do this format (I have not tested this, but online says it works): ```git commit -m "Subject" -m "Body"```
+
+
+
 ### Push
 The ```git push``` command is used to upload the local commits to a remote repo. Like sending the changes to your project that you made on your local machine and sending it to your repo on GitHub.
 
@@ -143,21 +147,44 @@ You would use them in that order in your workflow.
 
 Lets say you had a bug where it would send you the email but it would only include their name and not their email. Before you start fixing the bug you type in the command: ```git status``` *(1)* to make sure you don't have any modifications you should have already committed and pushed. 
 
-Then you start fixing the bug and once you get a fix and test it, you are ready. Repeat the same command ```git status``` *(2)* and make sure the files you changed are appearing. Lets say the file name is "email.php". Then you would add it to the staging area by using the command ```git add email.php``` *(3)* and then you would use the command and message: ```git commit -m "Fixed bug in email.php where email wasn't being sent when user submitted form by changing what values were included"``` *(4)* and finally, you would push it to the repo with the command ```git push``` *(5)*.
+Then you start fixing the bug and once you get a fix and test it, you are ready. Repeat the same command ```git status``` *(2)* and make sure the files you changed are appearing. Lets say the file name is "email.php". Then you would add it to the staging area by using the command ```git add email.php``` *(3)* and then you would use the command and message: ```git commit -m "Fix bug in email.php where email wasn't being sent when user submitted form by changing what values were included"``` *(4)* and finally, you would push it to the repo with the command ```git push``` *(5)*.
 
 So, to go over it quickly:
 
 1. ```git status``` -- to check if anything already done needs to be added, committed, and pushed
 2. ```git status``` -- again after the bug is fixed and tested
 3. ```git add email.php``` -- add the changes to email.php to the staging area
-4. ```git commit -m "Fixed bug in email.php where email wasn't being sent when user submitted form by changing what values were included"``` -- created a snapshot of the changes from files in the staging area. 
+4. ```git commit -m "Fix bug in email.php where email wasn't being sent when user submitted form by changing what values were included"``` -- created a snapshot of the changes from files in the staging area. 
 5. ```git push``` -- send those snapshots to the remote repo hosted on GitHub 
 
 
 ---
 
 ## Messages Matter
-*coming soon*
+The commit message is incredibly important! When you spend 6 months away from your project and you come back, you can use those commit messages to remind you where you left off. If you are handing over the the project to a manager who asks "what have you been doing all month" you have the commit messages to walk them through what you were doing and how you got there.
+
+I have some tips that I have grabbed on the internet on how to write good commit messages. The overall theme is ***clarity, conciseness, and a clear structure***
+
+Here are the tips:
+- Concise: aim for a subject line no longer than 50 characters
+- Descriptive: clearly state what the commit does
+- Capitalize: start with a capital letter and don't end with a period. 
+- Explain What and Why: provide context and reasoning behind the change.
+- Don't explain the how: The code will speak for itself. 
+
+
+
+**NOTE**: The company you work for might have their own way they like commit messages to be done, and you should always prioritize their way. But there is a standard practice in on GitHub and it is taking in the "imperative mood" or present tense. For example, in the earlier commit messages we used as an example:
+
+```git commit -m "Add section on the status, add, and commit commands to the lesson 2 markdown file"```
+In this example we have already added the section, but when we write this commit, even though we have already added it we use the present tense "Add" instead of the past tense "Added"
+
+
+```git commit -m "Fix bug in email.php where email wasn't being sent when user submitted form by changing what values were included"```
+In this example, we've already fixed the bug but we use the present tense "Fix" instead of "Fixed"
+
+
+I like to think of it as the that commit is an action and the message is explaining the action, it does it in present tense because as soon as that commit gets pushed it is the action. 
 
 ---
 

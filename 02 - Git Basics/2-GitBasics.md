@@ -279,4 +279,8 @@ on your own! I believe in you!
 ---
 
 ## Next Up!
-*coming soon*
+Next week we will be covering Collaboration Basics! Collaboration is a big deal in the tech world. If you work for a medium to huge company, chances are you are going to use collaboration in GitHub as part of your daily job!
+
+If you have any questions, please let me know at [rikki.ehrhart@g.austincc.edu](mailto:rikki.ehrhart@g.austincc.edu).
+
+If you'd like to run a Grab a Byte Session this semester, please let me know and we can work together to get you the presentation experience! (and you can put it on your resume!)

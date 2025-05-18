@@ -263,19 +263,16 @@ on your own! I believe in you!
 
 - For more practice fill out these questions below and practice in between each question until you feel comfortable:
 
-1. **<ins></ins>**
-2. **<ins></ins>**
-3. **<ins></ins>**
-4. **<ins></ins>**
-5. **<ins></ins>**
-6. **<ins></ins>**
-7. **<ins></ins>**
-8. **<ins></ins>**
-9. **<ins></ins>**
-10. **<ins></ins>**
-
-
-
+1. **<ins>What would your theme song be:</ins>**
+2. **<ins>Are you a Lover or a Fighter:</ins>**
+3. **<ins>How do you stay focused before a deadline:</ins>**
+4. **<ins>If you could debug one thing in real life, what would it be:</ins>**
+5. **<ins>Who is your starter Pokemon:</ins>**
+6. **<ins>What tech buzzword are you most eager to learn more about:</ins>**
+7. **<ins>If your keyboard had a magic key what would it do:</ins>**
+8. **<ins>What is your "Million Dollar Idea":</ins>**
+9. **<ins>Whats the question you've always wanted to ask about tech but have been to afraid to ask:</ins>**
+10. **<ins>What emoji(s) best describe you:</ins>**
 
 
 

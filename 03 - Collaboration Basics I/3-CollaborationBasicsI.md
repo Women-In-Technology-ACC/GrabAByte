@@ -124,4 +124,4 @@ The ```git pull``` command is very similar to fetch, but the difference is that 
 
 
 ## Next Up!
-*coming soon*
+Next week we will be covering Collaboration Basics II! Which includes: Pull Requests, Code Reviews, Issues, and Collaborators! 

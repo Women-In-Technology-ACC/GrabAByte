@@ -14,6 +14,7 @@ This week we are going to go over some Collaboration Basics
   - main vs master
   - Branch Commands
 - Merges
+  - Merge Commands
 - Fetch vs Pull
 - Lets Do It Together!
 - OPTIONAL: Homework
@@ -62,11 +63,24 @@ git push -u origin main
 
 
 ## Merges
-*coming soon*
+In GitHub, a **merge** refers to the process of combining changes from one branch (like a feature branch) to another branch (usually the main branch).
+
+Sometimes, when merging, Git may encounter merge conflicts. These occur when teh same lines of code in the same file have been modified in both branches. You have three options:
+
+  1. Accept the other programmer's code
+  2. Overwrite their code with yours
+  3. Manually resolve each conflict
+  
+This will need to be done before the merge can be completed.
+
+The result of a successful merge is a unified history on the main branch, incorporating all the changes from the merged branch.
 
 ### Merge Commands
 - ```git merge <branch-name>``` - merges ```<branch-name>``` into your current branch (i.e. you are in the main branch and you call ```git merge add-feature``` it merges the add-feature branch into the main)
 - ```git branch -d <branch-name>``` - deletes a branch locally after it's been merged
+- ```git pull``` - pulls the latest changes from the remote repo and merges them into your current local branch
+- ```git fetch``` - fetches the latest changes from GitHub but doesn't merge them yet --- use this when you want ot see what's new before deciding to merge
+- ```git log --merge``` - shows commits that are causing a merge conflict
 
 
 ---

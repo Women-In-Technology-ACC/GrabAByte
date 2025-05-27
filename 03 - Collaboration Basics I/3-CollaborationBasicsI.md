@@ -96,7 +96,16 @@ The ```git pull``` command is very similar to fetch, but the difference is that 
 
 
 ## Lets Do It Together!
-*coming soon*
+1. From the command line, type the command ```git branch my-first-branch``` to create a new branch called "my-first-branch". We aren't going to it yet.
+2. Navigate to the /03 - Collaboration Basics I/ folder and edit the file 3-CollaborationBasicsI.md and answer this question: **What are your plans this weekend?**
+3. Save and go back to your command line
+4. Commit your changes (do the ```git add```, ```git commit -m```, and ```git push``` commands that you learned last week)
+5. Switch to your new branch by using the command ```git checkout my-first-branch```
+6. Fetch and merge the latest version of main (the changes you just made) using the commands ```git fetch origin``` and ```git merge main``` <-- **NOTE:** when you are working for big huge companies and you are on a big team with a lot of people, you will need to fetch and merge from main multiple times a day to get the latest production code!
+7. Now that your "my-first-branch" branch is updated, lets add a new file. Make sure that in your command line you have navigated to the /03 - Collaboration Basics I/ and run the command ```touch fun-fact.txt```
+8. Open that file in your system and add a line to the top of the file that is a fun fact about you! (**Example**: **My dog, Joe, will be 17 years old in December!**)
+9. Now we want to stage, commit, and push the new file (do the ```git add```, ```git commit -m```, and ```git push``` commands that you learned last week)
+10. Now we are going to merge our branch into main. Enter the commands: ```git checkout main``` to go to the main branch, ```git pull origin main``` to make sure your main branch is up to date, ```git merge my-first-branch``` to merge the changes you made to my-first-branch to the main branch you are in, and ```git push origin main``` to push the changes you made to main (adding the changes you made to my-first-branch), to GitHub
 
 ---
 

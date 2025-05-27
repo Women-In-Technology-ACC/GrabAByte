@@ -25,7 +25,7 @@ This week we are going to go over some Collaboration Basics
 ## What Collaboration?
 Just like collaboration on a group project (is supposed to be) in the real world, you can collaborate with a group on a project in GitHub. 
 
-This means that multiple people can work on teh same codebase in the same repo at once! 
+This means that multiple people can work on the same codebase in the same repo at once! 
 
 Members working on the same repo can avoid overwriting each others work by using branches and pull requests.
 
@@ -50,7 +50,12 @@ git push -u origin main
 ```
 
 ### Branch Commands
-*coming soon*
+- ```git branch``` - lists all branches in your local repo
+- ```git branch <branch-name>``` - creates a branch, replace ```<branch-name>``` with the name of the branch you want
+- ```git branch <branch-name>``` - switches to ```<branch-name>``` branch
+- ```git checkout -b <branch-name>``` - creates ```<branch-name>``` branch and switches to it immediately
+- ```git push origin <branch-name>``` - pushes your local branch to GitHub
+- ```git pull origin <branch-name>``` - pulls the latest version of that branch from GitHub
 
 
 ---
@@ -58,6 +63,11 @@ git push -u origin main
 
 ## Merges
 *coming soon*
+
+### Merge Commands
+- ```git merge <branch-name>``` - merges ```<branch-name>``` into your current branch (i.e. you are in the main branch and you call ```git merge add-feature``` it merges the add-feature branch into the main)
+- ```git branch -d <branch-name>``` - deletes a branch locally after it's been merged
+
 
 ---
 

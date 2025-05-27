@@ -87,7 +87,10 @@ The result of a successful merge is a unified history on the main branch, incorp
 
 
 ## Fetch vs Pull
-*coming soon*
+The ```git fetch``` command essentially downloads the contents from a remote repository to your local machine but does not merge them with your local repo. 
+
+The ```git pull``` command is very similar to fetch, but the difference is that pull does merge them with your local repo. 
+
 
 ---
 

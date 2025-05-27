@@ -111,7 +111,14 @@ The ```git pull``` command is very similar to fetch, but the difference is that 
 
 
 ## OPTIONAL: Homework
-*coming soon*
+- Create a new branch called "command-line-cheat-sheet" and create a file in the /03 - Collaboration Basics I/ folder called 'command-line-cheat-sheet.txt' and add the commands you like from this cheat sheet: [Commands Cheat Sheet](https://www.git-tower.com/blog/command-line-cheat-sheet). Then merge that branch to your main.
+- Create multiple branches and each one commit something and merge to main. Some ideas:
+  - ```resume-branch``` - add your current resume
+  - ```picture-branch``` - add your current profile picture for LinkedIn
+  - ```markdown-branch``` - add a markdown cheat sheet 
+- Or come up with your own branch ideas and test them out in your repo!
+
+
 
 ---
 

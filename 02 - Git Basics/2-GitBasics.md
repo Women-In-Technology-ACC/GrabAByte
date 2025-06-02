@@ -26,7 +26,7 @@ Last week we signed up for GitHub and set it up on our machines! This week we ar
 
 ## The README File
 
-The README file serves as the first point of contact for users and developers who want to understand the purpose, setup, and usage of a project.
+The **README file** serves as the first point of contact for users and developers who want to understand the purpose, setup, and usage of a project.
 
 In a GitHub Repo, the README.md file is displayed on the main page of the repo. 
 
@@ -64,7 +64,7 @@ push
 Lets discuss each of them. 
 
 ### Status
-The ```git status``` command displays the state of the working directory and the staging area. Think of the staging area as a place to keep track of the current files you are working on. When you are ready to save them to Git, Git will use what is in your staging area.
+The ```git status``` command displays the state of the working directory and the **staging area**. Think of the staging area as a place to keep track of the current files you are working on. When you are ready to save them to Git, Git will use what is in your staging area.
 
 You would use the ```git status``` command to check what files have been modified but not added to the staging area. 
 
@@ -79,7 +79,7 @@ When you add items to the staging area they turn green the next time you use the
 ### Add
 The ```git add``` command adds a changed/new file from the working direction to the staging area. It tells Git that you want to include these updates. 
 
-However, ```git add``` doesn't really affect the repository in any significant way, changes are not actually recorded at this point. You are just telling git that you want to include these changes the next time you push your changes to Git/GitHub.
+However, ```git add``` doesn't really affect the repository in any significant way, changes are not actually recorded at this point. You are just telling git that you want to include these files the next time you push your changes to Git/GitHub.
 
 If you try to use the command ```git add``` by itself, just like that, you will receive an error:
 

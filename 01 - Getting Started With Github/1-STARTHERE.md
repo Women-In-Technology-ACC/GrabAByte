@@ -41,7 +41,7 @@ You are going to need your screen name and email address a little later so make 
 
 **GitHub** - is a hosting service that provides cloud-based platform to store Git Repositories.
 
-**Repository or Repo** - is an individual project. Repos contain all of your code, files, and each file's revision history. 
+**Repository or Repo** - is a directory of an individual project. Repos contain all of your code, files, and each file's revision history. Not all directories are repos, just ones that you have specified. 
 
 ---
 
@@ -152,7 +152,7 @@ Great! Lets make you your own copy of this workbook!
 
 ## Forking
 
-**Forking** is a term that means making a copy of a repository, stored either publicly or privately, under your personal account on a remote hosting service, like GitHub.
+**Forking** is a term that means making an independent copy of a repository, stored either publicly or privately, under your personal account on a remote hosting service, like GitHub. Any changes made to your forked repo will not effect the original. It is your copy.
 
 You are going to fork this repo so that you have a copy you can use as your own personal workbook!
 

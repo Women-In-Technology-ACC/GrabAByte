@@ -11,6 +11,7 @@ Last week we signed up for GitHub and set it up on our machines! This week we ar
 - The README File
   - For Example: The Grab A Byte README
 - Common Git Commands
+  - Init
   - Status
   - Add
   - Commit
@@ -53,8 +54,9 @@ We've included our logo image, a welcome paragraph explaining what Grab a Byte i
 ---
 
 ## Common Git Commands
-In today's lesson we are going to go over 4 common git commands: 
+In today's lesson we are going to go over 5 common git commands: 
 ```
+init
 status 
 add
 commit
@@ -62,6 +64,10 @@ push
 ```
 
 Lets discuss each of them. 
+
+### Init
+The ```git init``` command installs a hidden .git directory in the folder you do the command it. This directory is what makes the folder a Git Repository. The ```git init``` *initiates a git repo* locally on your machine. 
+
 
 ### Status
 The ```git status``` command displays the state of the working directory and the **staging area**. Think of the staging area as a place to keep track of the current files you are working on. When you are ready to save them to Git, Git will use what is in your staging area.

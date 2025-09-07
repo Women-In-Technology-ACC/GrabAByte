@@ -70,6 +70,7 @@ Click the "Start" Button, type "PowerShell". Select "Windows PowerShell" from th
 4. Launch Git Bash
 5. Run the command "```git --version```"
 6. It should return something like "```git version x.x.x```"
+7. Restart your command line
 
 
 You can always get back to Git Bash after you close out of it by clicking the "Start" button, typing "Git Bash" and clicking on the Git Bash application. 
@@ -91,6 +92,7 @@ Most Macs these days come with Git pre-installed.
 7. You should then be able to run the command "```brew --version```" and see something like "```Homebrew x.x.x```"
 8. Next type the command "```brew install git```", it should take about a minute to install.
 9. You can then check your git version again using the "```git --version```" command. 
+10. Restart your command line
 
 ---
 

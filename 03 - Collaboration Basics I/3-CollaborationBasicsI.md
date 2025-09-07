@@ -40,6 +40,8 @@ Each repository has a default branch (the default is main, but older repos might
 
 Think of branches like "drafts" of your project, or "development environments" where your main branch is your "production environment". Making edits to your branch does not effect other branches, until you merge them (which we will talk about later).
 
+Most of the time you would want to make a branch for each new "feature" you are working on until you are done testing it and make it a part of the main production branch or each "issue" you are working on until it is fixed and you make it part of the main branch. Larger projects would use a combination of these two methods. 
+
 
 ### main vs master
 Before October 2020, the default branch was named "master" but in late 2020, GitHub wanted to start using more inclusive language so they changed the default name from master to main. 
@@ -55,8 +57,9 @@ git push -u origin main
 - ```git branch <branch-name>``` - creates a branch, replace ```<branch-name>``` with the name of the branch you want
 - ```git branch <branch-name>``` - switches to ```<branch-name>``` branch
 - ```git checkout -b <branch-name>``` - creates ```<branch-name>``` branch and switches to it immediately
-- ```git push origin <branch-name>``` - pushes your local branch to GitHub
-- ```git pull origin <branch-name>``` - pulls the latest version of that branch from GitHub
+- ```git push <repo-name> <branch-name>``` - pushes your local branch to GitHub on the branch name ```<branch-name>```.
+- ```git pull <repo-name> <branch-name>``` - pulls the latest version of that branch from GitHub
+- ```git push --set-upstream <repo-name> <branch-name>``` - pushes local branch to Github to ```<branch-name>```, if that branch doesn't exists, it creates it.  
 
 
 ---
@@ -65,7 +68,7 @@ git push -u origin main
 ## Merges
 In GitHub, a **merge** refers to the process of combining changes from one branch (like a feature branch) to another branch (usually the main branch).
 
-Sometimes, when merging, Git may encounter merge conflicts. These occur when teh same lines of code in the same file have been modified in both branches. You have three options:
+Sometimes, when merging, Git may encounter merge conflicts. These occur when the same lines of code in the same file have been modified in both branches. You have three options:
 
   1. Accept the other programmer's code
   2. Overwrite their code with yours
@@ -103,7 +106,7 @@ The ```git pull``` command is very similar to fetch, but the difference is that 
 5. Switch to your new branch by using the command ```git checkout my-first-branch```
 6. Fetch and merge the latest version of main (the changes you just made) using the commands ```git fetch origin``` and ```git merge main``` <-- **NOTE:** when you are working for big huge companies and you are on a big team with a lot of people, you will need to fetch and merge from main multiple times a day to get the latest production code!
 7. Now that your "my-first-branch" branch is updated, lets add a new file. Make sure that in your command line you have navigated to the /03 - Collaboration Basics I/ and run the command ```touch fun-fact.txt```
-8. Open that file in your system and add a line to the top of the file that is a fun fact about you! (**Example**: **My dog, Joe, will be 17 years old in December!**)
+8. Open that file in your system and add a line to the top of the file that is a fun fact about you! (**Example**: **My Husband and I got married on a Friday the 13th!**)
 9. Now we want to stage, commit, and push the new file (do the ```git add```, ```git commit -m```, and ```git push``` commands that you learned last week)
 10. Now we are going to merge our branch into main. Enter the commands: ```git checkout main``` to go to the main branch, ```git pull origin main``` to make sure your main branch is up to date, ```git merge my-first-branch``` to merge the changes you made to my-first-branch to the main branch you are in, and ```git push origin main``` to push the changes you made to main (adding the changes you made to my-first-branch), to GitHub
 

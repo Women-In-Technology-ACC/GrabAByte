@@ -1,4 +1,4 @@
-# Lesson 4.1: Collaboration Basics I
+# Lesson 4.1: Collaboration Basics II
 
 Welcome to the Grab a Byte Lunchtime Learning Series! This semester we are learning GitHub!
 

@@ -126,7 +126,21 @@ We're going to do two walkthroughs:
 ### Rollbacks
 1. Open any file (like one of the lesson files) and do something *drastic* like erase all the lines in the file.
 2. Use the ```git add .```, ```git commit -m "Deleted Everything"```, and ```git push``` commands to "save" your changes
-3. Use the command ```git log --oneline``` to see a list like this:
+3. Use the command ```git log --oneline``` to see a list, something like this:
+
+  ```
+  a1b2c3d Delete Everything 
+  9f8e7d6 Updated bio section
+  123abcd Initial commit
+  ```
+
+4. You'll want to copy the code at the beginning of the line that reads "Delete Everything" (which will be at the top of the list as your most recent commit) -- in the case of this list is ```a1b2c3d```
+5. To exit the list you will want to enter ```q``` <- this works on Mac, but if you are having trouble, you can also try **Ctrl + C** or entering ```ZZ```
+6. Next you want to use the command ```git revert a1b2c3d```
+7. Git will create a new commit that undoes the changes from the "Delete Everything" commit. If an editor pops up, save and close (or add -m "Revert commit" to skip that step).
+8. Check the ```git log --oneline``` again to see the new commit as well as the "Delete Everything"
+9. Finally, push you commit with ```git push origin main```
+
 
 
 ### Forks and Upstream
@@ -141,7 +155,13 @@ You should now be able to go to your local repo and see the dates from the past 
 ---
 
 ## OPTIONAL: Homework
-*coming soon*
+Practice **resets** and **reverts** by creating commits and changing things or adding things and rolling back.
+
+Some suggestions:
+- Type out some song lyrics at the bottom of this page and reset to remove them completely!
+- Write a short story using only emojis and then revert it to save it to your history but to revert back to a time the emojis weren't there. 
+- Choose any file and go in and make some *interesting* typos or additions. Reset to remove them so *no one will every know...*
+- Create a spy message and add "This message will self-destruct in 15 seconds..." then revert it to remove it in under 15 seconds!!!
 
 ---
 

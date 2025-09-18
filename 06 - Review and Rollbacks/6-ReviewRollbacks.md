@@ -166,4 +166,4 @@ Some suggestions:
 ---
 
 ## Next Up!
-*coming soon*
+Next time we will cover .gitignore files and file management! 

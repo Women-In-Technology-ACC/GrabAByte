@@ -179,4 +179,4 @@ Once everything is correct, go ahead and add, commit and push. Go to your repo o
 ---
 
 ## Next Up!
-Next time we will be covering Intermediate Collaborations with 
+Next time we will be covering Intermediate Collaborations with Issues, Labels, Milestones, and Projects! See you then!

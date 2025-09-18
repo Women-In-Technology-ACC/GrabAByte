@@ -179,4 +179,4 @@ Once everything is correct, go ahead and add, commit and push. Go to your repo o
 ---
 
 ## Next Up!
-*coming soon*
+Next time we will be covering Intermediate Collaborations with 

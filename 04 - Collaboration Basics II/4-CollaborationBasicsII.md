@@ -94,7 +94,7 @@ You can add Reviewers via the PR Sidebar
 15. Before you press the button to create the pull request, look at the right menu options:
     - **Reviewers** - click the gear icon to add reviewers
     - **Assignees** - click the gear icon to add assignees ( you can assign yourself )
-    - **Labels** - click the gear icon to add labels like: bug, documentation, duplicate, enhancement, good first issue, help wanted, invalid, question, wontfix, or even edit or add labels
+    - **Labels** - click the gear icon to add labels like: bug, documentation, duplicate, enhancement, good first issue, help wanted, invalid, question, wontfix, or even edit or add labels (we will cover projects later)
     - **Projects** - click the gear icon to add Projects (we will cover projects later)
     - **Milestones** - click the gear icon to add Milestones (we will cover Milestones later)
     - **Development** - use "closing keyword" in the description to automatically close issues (we will cover Issues later)

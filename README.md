@@ -31,4 +31,4 @@
 | ~~May 14, 25~~ | ~~Prim's Algorithm~~ | ~~15_prims_algorithm.py~~ |
 >There is no Workshop on Mar 19th because of Spring Break 
 
-**The Workshops are over. Stay tuned for the Fall 2025 Grab A Byte Series**
+**The Workshops are over. Stay tuned for possible future series!**
